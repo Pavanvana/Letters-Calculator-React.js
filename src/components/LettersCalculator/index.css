@@ -1,0 +1,82 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+}
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-phrase-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #ffffff;
+  font-family: roboto;
+  font-size: 30px;
+  font-weight: 500;
+  width: 200px;
+}
+@media (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+    width: 250px;
+  }
+}
+.enter-phase {
+  color: #e4e7eb;
+  font-family: roboto;
+  font-size: 10px;
+}
+.input {
+  background-color: transparent;
+  color: #e4e7eb;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #e4e7eb;
+  font-family: roboto;
+  font-size: 13px;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 6px;
+}
+@media (min-width: 768px) {
+  .input {
+    font-size: 16px;
+  }
+}
+.counter {
+  align-self: flex-start;
+  color: #219a6f;
+  font-family: roboto;
+  font-size: 15px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+@media (min-width: 768px) {
+  .button {
+    font-size: 18px;
+  }
+}
+.img-style {
+  width: 350px;
+}
+@media (min-width: 768px) {
+  .img-style {
+    width: 500px;
+  }
+}
